@@ -1,14 +1,14 @@
 import styled from 'styled-components';
-
+import {Link} from 'react-router-dom'
 const Navbar = () => {
     return ( 
         <Nav>
             <h4>Dojo Blog</h4>
-            <Link>
-                <a href='#'>Home</a>
-                <a href='#'>New Blog</a>
-                <a href='#'>About</a>
-            </Link>
+           <Links>
+              <Link to="/">Home</Link>  
+              <Link to="/">New Blog</Link>  
+              
+              </Links>
         </Nav>
      );
 }
@@ -31,15 +31,11 @@ h4{
 `
 
 
-const Link= styled.div`
+const Links= styled.div`
     list-style:none;
     font-family:'Roboto', sans-serif;
    
 `
-
-
-
-
 
 
 

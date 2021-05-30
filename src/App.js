@@ -12,11 +12,11 @@ function App() {
        <Router>
       < GlobalStyle />
        <Switch>
-          <Route path="/">
+          <Route exact path="/">
           < Home />
           </Route>
-          <Route path="/create">
-             < Create />
+          <Route path="/Create">
+             <Create />
           </Route>
        </Switch>
        </Router>
