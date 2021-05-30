@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
     const BlogList = ({ blogs, title }) => {
@@ -7,10 +8,14 @@ import styled from 'styled-components';
                <Cards>
                {blogs.map((blog) =>(
                    <Card>
+                     <Link to ={`/blogs/${blog.id}`}>
+                        <Links>
                        <h3>{blog.title}</h3>
                        <h5>{blog.author}</h5>
                        <p>{blog.body.slice(0, 200)}</p>
                        <p>Continue reading...</p>
+                       </Links>
+                       </Link>
                    </Card>
                ) )}
                </Cards>
@@ -72,4 +77,12 @@ import styled from 'styled-components';
    }
    `
 
+
+const Links=  styled.div`
+    
+      color:black;
+    
+
+
+  `
     export default BlogList;
