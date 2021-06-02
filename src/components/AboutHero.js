@@ -5,7 +5,7 @@ import pexel from '../img/pexel.jpg';
 const AboutHero = () => {
     return (  
         <Banner>
-        <h2>My React </h2>
+        <h2>Learning Nextjs </h2>
     </Banner>
     );
 }
@@ -15,9 +15,7 @@ const AboutHero = () => {
 const Banner = styled.div`
     
     background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)),url(${pexel});
-          height:60vh;
-          
-         
+          height:50vh;
           background-position: center;
           background-size:cover;
           display:flex;
