@@ -50,6 +50,7 @@ const Article  = styled.div`
         font-family:'Roboto', sans-serif;
       font-size:18px;
       margin:10px;
+      text-align:justify;
       line-height:1.5;
       color:black;
     }
