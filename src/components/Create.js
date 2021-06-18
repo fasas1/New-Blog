@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
-
+import styled from 'styled-components'
 const Create = () => {
     return ( 
          <div>
@@ -16,4 +16,10 @@ const Create = () => {
      );
 }
  
+
+
+const Form= styled.div`
+      width:90%;
+`
+
 export default Create;
