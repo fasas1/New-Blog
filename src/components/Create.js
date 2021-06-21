@@ -4,7 +4,7 @@ const Create = () => {
     return ( 
          <div>
              <Navbar />
-             <h2>Add Blog</h2>
+             <h2>Add a New Blog</h2>
           <form>
               <label>Title</label>
                <input type="text" />
