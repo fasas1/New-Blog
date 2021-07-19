@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import styled from 'styled-components'
+
 const Create = () => {
     return ( 
          <div>
@@ -10,6 +11,9 @@ const Create = () => {
                <input type="text" />
                <label>Body</label>
                <input type="text" />
+               <textarea rows="6" cols="50">
+
+               </textarea>
           </form>
 
          </div>

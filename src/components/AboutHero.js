@@ -27,8 +27,6 @@ const Banner = styled.div`
           color:white;
           font-size:38px;
           font-family:'Roboto';
-
-
      } 
 
 
