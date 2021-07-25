@@ -3,27 +3,45 @@ import styled from 'styled-components'
 
 const Create = () => {
     return ( 
-         <div>
+         <>
              <Navbar />
              <h2>Add a New Blog</h2>
-          <form>
-              <label>Title</label>
-               <input type="text" />
-               <label>Body</label>
-               <input type="text" />
-               <textarea rows="6" cols="50">
-
-               </textarea>
-          </form>
-
-         </div>
+              
+     <Form>
+     <Label>
+        Title:
+        <input type="text" name="name" />
+     </Label>
+    
+     <Label>
+          Essay:
+          <textarea  rows='5' />
+        </Label>
+        
+        <input type="submit" value="Submit" />
+       
+  </Form>
+         </>
      );
 }
  
 
 
 const Form= styled.div`
-      width:90%;
+      
+`
+
+
+const Label= styled.div`
+        padding:10px;  
+        
+      
+      input, textarea {
+        width:40%;
+        padding:10px 0px;
+        margin:10px  0px;
+       
+      }
 `
 
 export default Create;
